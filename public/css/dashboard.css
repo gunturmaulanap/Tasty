@@ -1,0 +1,53 @@
+aside .logo {
+    width: 50%;
+    padding: 5px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.game-details .content {
+    border-radius: 23px;
+    padding: 30px;
+    background-color: #1f2122;
+}
+.game-details h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: 700;
+}
+.other-games {
+    border-radius: 23px;
+    padding: 30px 30px 0px 30px;
+    background-color: #1f2122;
+    margin-top: 60px;
+}
+.other-games .item {
+    position: relative;
+    border-bottom: 1px solid #27292a;
+    padding-bottom: 52px;
+    margin-bottom: 30px;
+}
